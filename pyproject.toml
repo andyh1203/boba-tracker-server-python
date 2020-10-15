@@ -10,6 +10,7 @@ fastapi = "^0.61.1"
 graphene = "^2.1.8"
 pydantic = "^1.6.1"
 uvicorn = "^0.12.1"
+motor = "^2.3.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
