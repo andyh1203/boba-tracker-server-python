@@ -7,10 +7,12 @@ authors = ["Andy Huynh <andy.huynh312@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 fastapi = "^0.61.1"
-graphene = "^2.1.8"
-pydantic = "^1.6.1"
+pydantic = {extras = ["dotenv"], version = "^1.6.1"}
 uvicorn = "^0.12.1"
 motor = "^2.3.0"
+ariadne = "^0.12.0"
+python-dotenv = "^0.14.0"
+dnspython = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"

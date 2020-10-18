@@ -3,7 +3,7 @@ from invoke import task
 
 @task
 def dev(c):
-    c.run("uvicorn main:app --reload --app-dir src")
+    c.run("uvicorn app.main:app --reload")
 
 
 def start(c):

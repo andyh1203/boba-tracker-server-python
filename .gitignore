@@ -107,3 +107,5 @@ python_boilerplate/
 
 #pytype
 .pytype
+
+.env
